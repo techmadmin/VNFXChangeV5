@@ -1,0 +1,20 @@
+<div class="container-fluid">
+<div class="row">
+<div ng-include="'sidenav.html'"></div>
+<div class="col-md-12 frame" >
+<div style="float: left;padding: 10px;background-color: #a7a9ac;width: 100%;font-size: 18px;color: white;margin-bottom: 20px;">
+	<span style="font-weight:bold">Functional Test Management</span>
+</div>
+
+<span class="col-md-3" id="overlay2" ng-show="searchButton == 'searching'" style="margin-left:45%;">
+    <img class="loading_circle" src="../img/loading.gif" width="60px" height="60px"></img>
+</span>
+
+<div ng-if="onboardFileSuccess" ng-show="viewDisplay" class="alert alert-success" style="margin-top:2%;">
+	 <strong>Test Case Executed Sucessfully! <a  href="./report1.html">View</a> </strong> 
+</div> 
+
+<!-- <a target="_blank" href="C://Bitnami//jenkins-2.89.2-0//apps//jenkins//enkins_home//workspace//report.html"> -->
+
+</div>
+</div>

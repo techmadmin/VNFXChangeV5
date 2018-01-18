@@ -1,0 +1,239 @@
+
+################################################################################
+## 01/09/2018 11:01:55: Log Start PID=142016
+################################################################################
+
+*Debug 01/09 11:01:55.713 ixStatThread statThread[2]: ixStatThread statThread[2] exit() - force=True, isThreadStopped=False
+*Debug 01/09 11:01:55.713 ixStatPoller Test Server  HTTPServer1 Traffic2@Network2_CSV1: Exiting Stat Plugin.
+*Debug 01/09 11:01:55.720 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : Test Server  HTTPServer1 Traffic2@Network2_CSV1
+*Debug 01/09 11:01:55.720 Stat Controller: deregister plugin Test Server  HTTPServer1 Traffic2@Network2_CSV1 acquireStatEngineLock() called
+*Debug 01/09 11:01:55.720 Stat Controller: deregister plugin Test Server  HTTPServer1 Traffic2@Network2_CSV1 acquireStatEngineLock() done
+*Debug 01/09 11:01:55.720 Stat Controller: deregister plugin Test Server  HTTPServer1 Traffic2@Network2_CSV1 _deregister() called
+*Debug 01/09 11:01:55.720 Stat Controller: _deregister plugin Test Server  HTTPServer1 Traffic2@Network2_CSV1 started
+*Debug 01/09 11:01:55.720 Stat Controller: UnRegister() req <C ixStatRequest instance at _08251137_p_StatRequest> called
+*Debug 01/09 11:01:55.720 Stat Controller: UnRegister() req <C ixStatRequest instance at _08251137_p_StatRequest> done
+*Debug 01/09 11:01:55.720 Stat Controller: _deregister plugin Test Server  HTTPServer1 Traffic2@Network2_CSV1 stopped
+*Debug 01/09 11:01:55.720 Stat Controller: deregister plugin Test Server  HTTPServer1 Traffic2@Network2_CSV1 releaseStatEngineLock() called
+*Debug 01/09 11:01:55.720 Stat Controller: deregister plugin Test Server  HTTPServer1 Traffic2@Network2_CSV1 releaseStatEngineLock() done
+*Debug 01/09 11:01:55.720 ixStatPoller HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5: Exiting Stat Plugin.
+*Debug 01/09 11:01:55.730 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5
+*Debug 01/09 11:01:55.730 Stat Controller: deregister plugin HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5 acquireStatEngineLock() called
+*Debug 01/09 11:01:55.730 Stat Controller: deregister plugin HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5 acquireStatEngineLock() done
+*Debug 01/09 11:01:55.730 Stat Controller: deregister plugin HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5 _deregister() called
+*Debug 01/09 11:01:55.730 Stat Controller: _deregister plugin HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5 started
+*Debug 01/09 11:01:55.730 Stat Controller: UnRegister() req <C ixStatRequest instance at _80ec3a37_p_StatRequest> called
+*Debug 01/09 11:01:55.732 Stat Controller: UnRegister() req <C ixStatRequest instance at _80ec3a37_p_StatRequest> done
+*Debug 01/09 11:01:55.732 Stat Controller: _deregister plugin HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5 stopped
+*Debug 01/09 11:01:55.732 Stat Controller: deregister plugin HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5 releaseStatEngineLock() called
+*Debug 01/09 11:01:55.732 Stat Controller: deregister plugin HTTP Server - Default CSV Logs HTTPServer1 Traffic2@Network2_CSV5 releaseStatEngineLock() done
+*Debug 01/09 11:01:55.732 ixStatPoller HTTP Server  HTTPServer1 Traffic2@Network2_CSV4: Exiting Stat Plugin.
+*Debug 01/09 11:01:55.742 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : HTTP Server  HTTPServer1 Traffic2@Network2_CSV4
+*Debug 01/09 11:01:55.742 Stat Controller: deregister plugin HTTP Server  HTTPServer1 Traffic2@Network2_CSV4 acquireStatEngineLock() called
+*Debug 01/09 11:01:55.742 Stat Controller: deregister plugin HTTP Server  HTTPServer1 Traffic2@Network2_CSV4 acquireStatEngineLock() done
+*Debug 01/09 11:01:55.742 Stat Controller: deregister plugin HTTP Server  HTTPServer1 Traffic2@Network2_CSV4 _deregister() called
+*Debug 01/09 11:01:55.742 Stat Controller: _deregister plugin HTTP Server  HTTPServer1 Traffic2@Network2_CSV4 started
+*Debug 01/09 11:01:55.742 Stat Controller: UnRegister() req <C ixStatRequest instance at _e8a2733c_p_StatRequest> called
+*Debug 01/09 11:01:55.743 Stat Controller: UnRegister() req <C ixStatRequest instance at _e8a2733c_p_StatRequest> done
+*Debug 01/09 11:01:55.743 Stat Controller: _deregister plugin HTTP Server  HTTPServer1 Traffic2@Network2_CSV4 stopped
+*Debug 01/09 11:01:55.743 Stat Controller: deregister plugin HTTP Server  HTTPServer1 Traffic2@Network2_CSV4 releaseStatEngineLock() called
+*Debug 01/09 11:01:55.743 Stat Controller: deregister plugin HTTP Server  HTTPServer1 Traffic2@Network2_CSV4 releaseStatEngineLock() done
+*Debug 01/09 11:01:55.743 ixStatPoller Test Client  HTTPClient1 Traffic1@Network1_CSV2: Exiting Stat Plugin.
+*Debug 01/09 11:01:55.753 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : Test Client  HTTPClient1 Traffic1@Network1_CSV2
+*Debug 01/09 11:01:55.753 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 acquireStatEngineLock() called
+*Debug 01/09 11:01:55.753 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 acquireStatEngineLock() done
+*Debug 01/09 11:01:55.753 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 _deregister() called
+*Debug 01/09 11:01:55.753 Stat Controller: _deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 started
+*Debug 01/09 11:01:55.753 Stat Controller: UnRegister() req <C ixStatRequest instance at _f0074537_p_StatRequest> called
+*Debug 01/09 11:01:55.753 Stat Controller: UnRegister() req <C ixStatRequest instance at _f0074537_p_StatRequest> done
+*Debug 01/09 11:01:55.753 Stat Controller: _deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 stopped
+*Debug 01/09 11:01:55.755 Community Controller Traffic2@Network2: Fetching the next event from the queue
+*Debug 01/09 11:01:55.755 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 releaseStatEngineLock() called
+*Debug 01/09 11:01:55.755 Community Controller Traffic2@Network2: event ID received =  Community Controller: All Stat Plugins Stopped
+*Debug 01/09 11:01:55.755 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 releaseStatEngineLock() done
+*Debug 01/09 11:01:55.755 ixFSM:   *** FSM Community Controller Traffic2@Network2: --EVENT RECEIVED--:  Community Controller: All Stat Plugins Stopped
+*Debug 01/09 11:01:55.756 ixStatPoller HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3: Exiting Stat Plugin.
+*Debug 01/09 11:01:55.756 ixFSM:   *** FSM Community Controller Traffic2@Network2 --EVENT PROCESSED--:  Community Controller: All Stat Plugins Stopped
+*Debug 01/09 11:01:55.756 ixFSM:   *** FSM Community Controller Traffic2@Network2 --INTERNAL EVENT. STAYING IN STATE--:  Community Controller: STOPPING             
+*Debug 01/09 11:01:55.756 Community Controller Traffic2@Network2: Fetching the next event from the queue
+*Debug 01/09 11:01:55.756 Community Controller Traffic2@Network2: event ID received =  Community Controller: Community Stopped
+*Debug 01/09 11:01:55.756 ixFSM:   *** FSM Community Controller Traffic2@Network2: --EVENT RECEIVED--:  Community Controller: Community Stopped
+*Debug 01/09 11:01:55.757 Community Controller Traffic2@Network2: Community Controller FSM: EXIT Action for the State: STOPPING  :: Traffic2@Network2 
+*Debug 01/09 11:01:55.757 ixFSM:   *** FSM Community Controller Traffic2@Network2 --EVENT PROCESSED--:  Community Controller: Community Stopped
+*Debug 01/09 11:01:55.757 ixFSM:   *** FSM Community Controller Traffic2@Network2 --EXITING STATE--:  Community Controller: STOPPING             
+*Debug 01/09 11:01:55.757 ixFSM:   *** FSM Community Controller Traffic2@Network2 --ENTERING STATE--:  Community Controller: CONFIGURED           
+*Debug 01/09 11:01:55.757 Community Controller Traffic2@Network2: Community Controller FSM: ENTRY Action for the State: CONFIGURED  :: Traffic2@Network2 
+*Debug 01/09 11:01:55.757 Community Controller: Clearing cache on Traffic2@Network2
+*Debug 01/09 11:01:55.757 Community Controller: Community cache cleared on Traffic2@Network2 .
+*Debug 01/09 11:01:55.757 Community Controller Traffic2@Network2: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Community Controller Traffic2@Network2, TEST NAME: Test1, PREV STATE: 'Community Controller: STOPPING', EVENT RECEIVED:  Community Controller: Community Stopped
+  NEW STATE: 'Community Controller: CONFIGURED', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 01/09 11:01:55.763 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 01/09 11:01:55.763 Community Controller Traffic1@Network1: event ID received =  Community Controller: All Stat Plugins Stopped
+*Debug 01/09 11:01:55.763 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: All Stat Plugins Stopped
+*Debug 01/09 11:01:55.763 ixKseCommunicator Global: Sending on ports [(1,1,2)]:'<ixlagent-test-end-request request-id="1515475728" activityName="Global" port-id="0"/>'.
+*Debug 01/09 11:01:55.763 Community Controller: Port Id 192.168.31.42;1;2 timer added.
+*Debug 01/09 11:01:55.765 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: All Stat Plugins Stopped
+*Debug 01/09 11:01:55.765 ixFSM:   *** FSM Community Controller Traffic1@Network1 --INTERNAL EVENT. STAYING IN STATE--:  Community Controller: STOPPING             
+*Debug 01/09 11:01:55.766 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3
+*Debug 01/09 11:01:55.766 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 acquireStatEngineLock() called
+*Debug 01/09 11:01:55.766 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 acquireStatEngineLock() done
+*Debug 01/09 11:01:55.766 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 _deregister() called
+*Debug 01/09 11:01:55.766 Stat Controller: _deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 started
+*Debug 01/09 11:01:55.766 Stat Controller: UnRegister() req <C ixStatRequest instance at _40bc4437_p_StatRequest> called
+*Debug 01/09 11:01:55.766 Stat Controller: UnRegister() req <C ixStatRequest instance at _40bc4437_p_StatRequest> done
+*Debug 01/09 11:01:55.766 Stat Controller: _deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 stopped
+*Debug 01/09 11:01:55.766 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 releaseStatEngineLock() called
+*Debug 01/09 11:01:55.766 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 releaseStatEngineLock() done
+*Debug 01/09 11:01:55.766 ixStatPoller HTTP Client  HTTPClient1 Traffic1@Network1_CSV6: Exiting Stat Plugin.
+*Debug 01/09 11:01:55.776 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : HTTP Client  HTTPClient1 Traffic1@Network1_CSV6
+*Debug 01/09 11:01:55.776 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV6 acquireStatEngineLock() called
+*Debug 01/09 11:01:55.776 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV6 acquireStatEngineLock() done
+*Debug 01/09 11:01:55.776 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV6 _deregister() called
+*Debug 01/09 11:01:55.776 Stat Controller: _deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV6 started
+*Debug 01/09 11:01:55.776 Stat Controller: UnRegister() req <C ixStatRequest instance at _b8080537_p_StatRequest> called
+*Debug 01/09 11:01:55.778 Stat Controller: UnRegister() req <C ixStatRequest instance at _b8080537_p_StatRequest> done
+*Debug 01/09 11:01:55.778 Stat Controller: _deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV6 stopped
+*Debug 01/09 11:01:55.778 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV6 releaseStatEngineLock() called
+*Debug 01/09 11:01:55.778 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV6 releaseStatEngineLock() done
+*Debug 01/09 11:01:55.778 ixStatThread statThread[2]: Clearing pollers on stat thread statThread[2]
+*Debug 01/09 11:01:55.778 ixStatThread statThread[2]: thread stopped gracefully
+*Debug 01/09 11:01:55.790 ixKseCommunicator Global: Got from port (1,1,2): '<ixlagent-test-end-response request-id="1515475728" activityName="Global" port-id="0"/>'
+*Debug 01/09 11:01:55.790 ixKseCommunicator Global: Handling ixlagent message from port (1,1,2): '<ixlagent-test-end-response request-id="1515475728" activityName="Global" port-id="0"/>'
+*Debug 01/09 11:01:55.790 Traffic1@Network1: Traffic1@Network1: got response for requestType test-end on port 0
+*Debug 01/09 11:01:55.790 Community Controller: Port Id 192.168.31.42;1;2 task done.
+*Debug 01/09 11:01:55.865 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 01/09 11:01:55.865 Community Controller Traffic1@Network1: event ID received =  Community Controller: Community Stopped
+*Debug 01/09 11:01:55.865 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: Community Stopped
+*Debug 01/09 11:01:55.865 Test Controller: testName = Test1 ; stateName =  TestController: STOPPING                        ; eventId =  TestController: All communities stopped successfully ; errDescription = None ; details = None; status = None
+*Debug 01/09 11:01:55.865 Community Controller Traffic1@Network1: Community Controller FSM: EXIT Action for the State: STOPPING  :: Traffic1@Network1 
+*Debug 01/09 11:01:55.865 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: Community Stopped
+*Debug 01/09 11:01:55.865 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EXITING STATE--:  Community Controller: STOPPING             
+*Debug 01/09 11:01:55.865 ixFSM:   *** FSM Community Controller Traffic1@Network1 --ENTERING STATE--:  Community Controller: CONFIGURED           
+*Debug 01/09 11:01:55.865 Community Controller Traffic1@Network1: Community Controller FSM: ENTRY Action for the State: CONFIGURED  :: Traffic1@Network1 
+*Debug 01/09 11:01:55.865 Community Controller: Clearing cache on Traffic1@Network1
+*Debug 01/09 11:01:55.865 Community Controller: Community cache cleared on Traffic1@Network1 .
+*Debug 01/09 11:01:55.865 Community Controller Traffic1@Network1: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Community Controller Traffic1@Network1, TEST NAME: Test1, PREV STATE: 'Community Controller: STOPPING', EVENT RECEIVED:  Community Controller: Community Stopped
+  NEW STATE: 'Community Controller: CONFIGURED', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 01/09 11:01:55.934 Test Controller: Fetching the next event from the queue
+*Debug 01/09 11:01:55.934 Test Controller: event ID received =  TestController: All communities stopped successfully
+*Debug 01/09 11:01:55.934 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: All communities stopped successfully
+*Debug 01/09 11:01:55.934 Test Controller: Test Controller FSM: Internal Transition Action: _TransAction_doStatViewerStop()
+*Debug 01/09 11:01:55.937 Stat Controller: tsStopTest()
+*Debug 01/09 11:01:55.937 Stat Controller: Stat manager Stop starts...
+*Debug 01/09 11:01:55.938 Stat Controller: statManagerStopEx()
+*Debug 01/09 11:01:58.105 Stat Controller: Stat manager stopped for publisher=Stackmanager with logResults=False, ignoreAction=False, resetViews=False and resetResultFolder=False
+*Debug 01/09 11:01:58.105 Stat Controller: Stat manager stopped for publisher=IxLoad with logResults=False, ignoreAction=False, resetViews=False and resetResultFolder=False
+*Debug 01/09 11:01:58.105 Stat Controller: Stat manager Stop finishes
+*Debug 01/09 11:01:58.108 Stat Controller: Stack Manager CSV Logger Stopped
+*Debug 01/09 11:01:58.108 Stat Controller: Writing Stack Manager CSV files
+*Debug 01/09 11:01:58.111 Stat Controller: No Snapshot CSVs to be done
+*Debug 01/09 11:01:58.111 Test Controller: testName = Test1 ; stateName =  TestController: STOPPING                        ; eventId =  TestController: Stat Viewer stopped succesfully ; errDescription = None ; details = None; status = None
+*Debug 01/09 11:01:58.111 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: All communities stopped successfully
+*Debug 01/09 11:01:58.111 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: STOPPING                        
+*Debug 01/09 11:01:58.111 Test Controller: Fetching the next event from the queue
+*Debug 01/09 11:01:58.111 Test Controller: event ID received =  TestController: Stat Viewer stopped succesfully
+*Debug 01/09 11:01:58.111 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Stat Viewer stopped succesfully
+*Debug 01/09 11:01:58.111 Test Controller:      << Condition >>         :   ReleaseConfigAfterRun = False 
+*Debug 01/09 11:01:58.298 Test Controller: Test Controller FSM: EXIT Action for the State: STOPPING
+*Debug 01/09 11:01:58.298 Test Controller: __runCleanup()
+*Debug 01/09 11:01:58.298 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 01/09 11:01:58.298 Test Controller : Stat Controller has already been stopped
+*Debug 01/09 11:01:58.298 Test Controller: _stopIxViewCapture()
+*Debug 01/09 11:01:58.298 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:58.299 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:58.299 NetTraffic Traffic2@Network2: isCommunityCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:58.299 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:58.299 NetTraffic Traffic1@Network1: stopIxViewCapture() for Traffic1@Network1
+*Debug 01/09 11:01:58.299 ixViewCommunityCapture : __FSM__SendEvent() eventId = ixViewCommunityCapture: EVENT { Stop the capture }
+*Debug 01/09 11:01:58.299 ixViewCommunityCapture : Traffic1@Network1 received ixViewCommunityCapture: EVENT { Stop the capture } on ixViewCommunityCapture: STATE [ RUNNING ]
+*Debug 01/09 11:01:58.299 ixViewCommunityCapture : __stopcapture()
+*Debug 01/09 11:01:58.299 IxAnalyzer : Analyzer - StopCapture...
+*Debug 01/09 11:01:58.890 IxAnalyzer : Analyzer - Stop() on capture source 65540 returned 0
+*Debug 01/09 11:01:58.890 ixViewCommunityCapture : returning from __stopcapture()
+*Debug 01/09 11:01:58.890 Test Controller : callbackCaptureView(): community = Traffic1@Network1, community capture event state name = ixViewCommunityCapture: STATE [ STOPPING ]
+*Debug 01/09 11:01:58.891 Test Controller : ixViewCaptureCallback CALLED id = 65540 status = 0
+*Debug 01/09 11:01:58.891 ixViewCommunityCapture : IxViewCommunityCapture State Machine Traffic1@Network1 in ixViewCommunityCapture: STATE [ STOPPING ]
+*Debug 01/09 11:01:58.891 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:58.892 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:58.894 NetTraffic Traffic2@Network2: isCommunityCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:58.894 NetTraffic Traffic1@Network1: isCommunityCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:58.894 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:58.894 Test Controller: _testStopIxViewCapture()
+*Debug 01/09 11:01:58.894 NetTraffic Traffic1@Network1: isCommunityCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:58.895 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:58.895 ixViewCommunityCapture : Traffic1@Network1 received the captureViewCallback() id = 65540, status = 0
+*Debug 01/09 11:01:58.895 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:58.895 ixViewCommunityCapture : Traffic1@Network1 has the interface id = 65540, status = 0
+*Debug 01/09 11:01:58.897 IxAnalyzer : Analyzer - Info test stopped.
+*Debug 01/09 11:01:58.897 Test Controller : Returning from ixViewCaptureCallback (id = 65540 status = 0)
+*Info 01/09 11:01:58.898 Licensing: Checking in license for test Test1...
+*Info 01/09 11:01:58.900 Licensing: Checking in license for feature(s) IXLOAD,ADVNET-EGTPR8-S11S1MME,HTTP-Basic for chassis 192.168.31.42 on license server ['@192.168.31.42']...
+*Debug 01/09 11:01:58.900 Licensing: Release license batch _08fabf24_p_MULTI_IXLM_HANDLE size = 1 debug=0
+*Info 01/09 11:01:58.901 Licensing: License check in succeeded for test Test1.
+
+*Debug 01/09 11:01:58.905 Test Controller : STOPPING the RUN STAT plugin
+*Debug 01/09 11:01:58.905 ixRunStateStatPlugin: stop(): Stopping stat plugin RunState for HTTPServer1
+*Debug 01/09 11:01:58.907 Test Controller : Waiting for the run stat plugin to stop...
+*Debug 01/09 11:01:58.914 Test Controller : Run stat plugin is still running!
+*Debug 01/09 11:01:58.982 ixViewCommunityCapture : __capatureInterfaceStopStatus() Traffic1@Network1 has the interface id = 65540, status = 0
+*Debug 01/09 11:01:58.982 ixViewCommunityCapture : __FSM__SendEvent() eventId = ixViewCommunityCapture: EVENT { Stopping of the capture }
+*Debug 01/09 11:01:58.982 ixViewCommunityCapture : Traffic1@Network1 received ixViewCommunityCapture: EVENT { Stopping of the capture } on ixViewCommunityCapture: STATE [ STOPPING ]
+*Debug 01/09 11:01:58.983 Test Controller : callbackCaptureView(): community = Traffic1@Network1, community capture event state name = ixViewCommunityCapture: STATE [ STOPPING ]
+*Debug 01/09 11:01:58.983 ixViewCommunityCapture : IxViewCommunityCapture State Machine Traffic1@Network1 in ixViewCommunityCapture: STATE [ STOPPING ]
+*Debug 01/09 11:01:58.983 ixViewCommunityCapture : __saveCapturedData()
+*Debug 01/09 11:01:58.983 IxAnalyzer : Analyzer - saveCaptureFile(captureSourceId=65540 filePath=RESULTS\IxLoad_VOLTE_affirmed\Port_1_1_2_capture.cap)
+*Debug 01/09 11:01:59.13 ixViewCommunityCapture : returning from __saveCapturedData()
+*Debug 01/09 11:01:59.13 ixViewCommunityCapture : Check if stopped received from all the interfaces for this community
+*Debug 01/09 11:01:59.13 ixViewCommunityCapture :  interface id 65540 state = Capture Interface: STATE [ CONFIGURED ]
+*Debug 01/09 11:01:59.13 ixViewCommunityCapture : Traffic1@Network1 All Capture Interfaces for the community have stopped successfully
+*Debug 01/09 11:01:59.13 ixViewCommunityCapture : __FSM__SendEvent() eventId = ixViewCommunityCapture: EVENT { All Capture Interfaces stopped running }
+*Debug 01/09 11:01:59.13 ixViewCommunityCapture : Traffic1@Network1 received ixViewCommunityCapture: EVENT { All Capture Interfaces stopped running } on ixViewCommunityCapture: STATE [ STOPPING ]
+*Debug 01/09 11:01:59.13 Test Controller : callbackCaptureView(): community = Traffic1@Network1, community capture event state name = ixViewCommunityCapture: STATE [ CONFIGURED ]
+*Debug 01/09 11:01:59.15 Test Controller : community = Traffic1@Network1 stopped the capture run. Community Capture State = ixViewCommunityCapture: STATE [ CONFIGURED ]
+*Debug 01/09 11:01:59.15 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:59.15 NetTraffic Traffic2@Network2: isCommunityCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:59.15 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:59.15 NetTraffic Traffic1@Network1: isCommunityCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:59.15 Test Controller : All community captures for the test have stopped successfully
+*Debug 01/09 11:01:59.16 Test Controller : calling ::IxLoad eval {set ::ixCaptureMonitor {eventType CAPTURE_STOPPED status OK}}
+*Debug 01/09 11:01:59.16 ixViewCommunityCapture : IxViewCommunityCapture State Machine Traffic1@Network1 in ixViewCommunityCapture: STATE [ CONFIGURED ]
+*Debug 01/09 11:01:59.417 Test Controller : Run stat plugin is still running!
+*Debug 01/09 11:01:59.676 ixStatThread statThread[1]: exiting thread
+*Debug 01/09 11:01:59.676 ixStatThread statThread[1]: Stat Thread statThread[1]: Average time per poll = 0.00s (total of 0.25s over 168 polls)
+*Debug 01/09 11:01:59.677 ixStatThread statThread[1]: ixStatThread statThread[1] exit() - force=True, isThreadStopped=False
+*Debug 01/09 11:01:59.677 ixStatPoller __ixRunStateStatPlugin__0: Exiting Stat Plugin.
+*Debug 01/09 11:01:59.677 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : __ixRunStateStatPlugin__0
+*Debug 01/09 11:01:59.677 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 acquireStatEngineLock() called
+*Debug 01/09 11:01:59.677 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 acquireStatEngineLock() done
+*Debug 01/09 11:01:59.678 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 _deregister() called
+*Debug 01/09 11:01:59.678 Stat Controller: _deregister plugin __ixRunStateStatPlugin__0 started
+*Debug 01/09 11:01:59.678 Stat Controller: UnRegister() req <C ixStatRequest instance at _78b30f37_p_StatRequest> called
+*Debug 01/09 11:01:59.678 Stat Controller: UnRegister() req <C ixStatRequest instance at _78b30f37_p_StatRequest> done
+*Debug 01/09 11:01:59.680 Stat Controller: _deregister plugin __ixRunStateStatPlugin__0 stopped
+*Debug 01/09 11:01:59.680 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 releaseStatEngineLock() called
+*Debug 01/09 11:01:59.680 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 releaseStatEngineLock() done
+*Debug 01/09 11:01:59.680 ixStatThread statThread[1]: Clearing pollers on stat thread statThread[1]
+*Debug 01/09 11:01:59.680 ixStatThread statThread[1]: thread stopped gracefully
+*Debug 01/09 11:01:59.920 Test Controller : The run stat plugin has stopped.
+*Debug 01/09 11:01:59.920 Test Controller: returning from __runCleanup()
+*Debug 01/09 11:01:59.921 Test Controller : generateExternalReports is done
+*Debug 01/09 11:01:59.982 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Stat Viewer stopped succesfully
+*Debug 01/09 11:01:59.982 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: STOPPING                        
+*Debug 01/09 11:01:59.982 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: CONFIGURED                      
+*Debug 01/09 11:01:59.982 Test Controller: **********************************************************************************************
+*Debug 01/09 11:01:59.983 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 01/09 11:01:59.983 Test Controller:  PUBLISHING STATE : [ TestController: CONFIGURED                      ]
+*Debug 01/09 11:01:59.983 Test Controller: **********************************************************************************************
+*Debug 01/09 11:01:59.983 Test Controller : ixRunStateHandler received event  TestController: CONFIGURED                      
+*Debug 01/09 11:01:59.986 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/09 11:01:59.986 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/09 11:01:59.986 Test Controller : calling ::IxLoad eval {::IxLoadPrivate::default_event_callback {eventType TEST_STOPPED status OK}}
+*Debug 01/09 11:02:00.29 Test Controller: Test Controller FSM: ENTRY Action for the State: CONFIGURED
+*Debug 01/09 11:02:00.35 Test Controller: Disconnecting from the stat-engine
+*Debug 01/09 11:02:00.39 Stat Controller: STAT CONTROLLER: disconnectFromAllSources()
+*Debug 01/09 11:02:00.39 Stat Controller: disconnectFromAllSources[782963632]: Disconnecting from [('192.168.31.42', '192.168.31.42')]
+*Debug 01/09 11:02:00.39 Stat Controller: Disconnecting from 192.168.31.42/192.168.31.42
+*Error 01/09 11:02:00.66 IxLoad-api: error writing "stdout": broken pipe
+    while executing
+"puts $::ixTestControllerMonitor"

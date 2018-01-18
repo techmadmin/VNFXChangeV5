@@ -1,0 +1,486 @@
+
+################################################################################
+## 01/10/2018 14:20:28: Log Start PID=10328
+################################################################################
+
+*Info 01/10 14:20:28.506 Chassis Chain: Validating that 192.168.31.42 has a valid network address.
+*Info 01/10 14:20:28.506 Chassis Chain: Chassis 192.168.31.42 has a valid network address.
+*Info 01/10 14:20:28.506 Chassis Chain: Validating that 192.168.31.42 accepts incoming connections. Will try to connect for 10 seconds.
+*Debug 01/10 14:20:29.536 Chassis Chain: IxLoad encountered the following error when connecting to chassis 192.168.31.42 : No connection could be made because the target machine actively refused it.
+*Info 01/10 14:20:29.536 Chassis Chain: Validation for 192.168.31.42 is completed. IP is valid and connection succeeded.
+*Info 01/10 14:20:29.536 ixChassis 192.168.31.42: Connecting to chassis 192.168.31.42
+*Debug 01/10 14:20:29.536 ixChassis 192.168.31.42: Starting Async Callback
+*Debug 01/10 14:20:29.536 ixChassis 192.168.31.42: Blocking for response, this is a wizard, tcl api callback or apply config or start run scenario
+*Debug 01/10 14:20:30.549 ixChassis 192.168.31.42: Blocking for response, this is a wizard, tcl api callback or apply config or start run scenario
+*Debug 01/10 14:20:31.563 ixChassis 192.168.31.42: Blocking for response, this is a wizard, tcl api callback or apply config or start run scenario
+*Debug 01/10 14:20:32.578 ixChassis 192.168.31.42: Blocking for response, this is a wizard, tcl api callback or apply config or start run scenario
+*Debug 01/10 14:20:33.592 ixChassis 192.168.31.42: Blocking for response, this is a wizard, tcl api callback or apply config or start run scenario
+*Debug 01/10 14:20:34.605 ixChassis 192.168.31.42: Blocking for response, this is a wizard, tcl api callback or apply config or start run scenario
+*Debug 01/10 14:20:35.167 ixChassis 192.168.31.42: Async callback received -- callbackEstablishConnection
+*Debug 01/10 14:20:35.183 ixChassis 192.168.31.42: Chassis 192.168.31.42 installs IxOS 8.10.1250.8 EA-PATCH1
+*Debug 01/10 14:20:35.619 ixChassis 192.168.31.42: Blocking for response, this is a wizard, tcl api callback or apply config or start run scenario
+*Debug 01/10 14:20:35.665 ixChassis 192.168.31.42: Chassis 192.168.31.42 installs IxOS 8.10.1250.8 EA-PATCH1
+*Debug 01/10 14:20:35.776 ixChassis 192.168.31.42: Card = 1, name = Xcellon-Ultra NP, number of ports = 13
+*Debug 01/10 14:20:36.555 ixPort Port 1.1.1: port (1,1,1) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.2: port (1,1,2) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.3: port (1,1,3) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.4: port (1,1,4) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.5: port (1,1,5) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.6: port (1,1,6) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.7: port (1,1,7) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.8: port (1,1,8) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.9: port (1,1,9) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.10: port (1,1,10) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.11: port (1,1,11) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.12: port (1,1,12) operationModesMap={0: True, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixPort Port 1.1.13: port (1,1,13) operationModesMap={0: False, 1: True, 2: False, 3: False, 4: False, 8: False}
+*Debug 01/10 14:20:36.571 ixChassis 192.168.31.42: Card = 2, name = slot empty, number of ports = 0
+*Debug 01/10 14:20:36.586 Chassis Chain: Creating chassis watch. Monitoring for event mask 7
+*Info 01/10 14:20:36.601 ixChassis 192.168.31.42: Connected successfully to the chassis 192.168.31.42
+*Debug 01/10 14:20:36.618 Chassis Chain: BLOCK = True
+*Debug 01/10 14:20:36.634 ixChassis 192.168.31.42: Blocking for response, this is a wizard, tcl api callback or apply config or start run scenario
+*Debug 01/10 14:20:36.648 Chassis Chain: chassis 192.168.31.42 connect return as 192.168.31.42
+*Debug 01/10 14:20:36.648 Chassis Chain: Total wait time for ports to link up = 0.0, max wait time = 30
+*Debug 01/10 14:20:36.648 Chassis Chain: addChassis hwMismatchChassis=[]
+*Debug 01/10 14:20:47.167 Chassis Chain: Received chassis watch 192.168.31.42 - eventType: 2, oldValue: 1, newValue 1 err None
+*Debug 01/10 14:20:47.213 Chassis Chain: ChassisManager:isInitEvent method. CurrentValue not in xml format: 1
+*Debug 01/10 14:20:47.276 ixViewOptions : ixViewOptions initialised successfully
+*Debug 01/10 14:20:47.292 NetTraffic None@None: ###### CHANGED None@None:
+*Debug 01/10 14:20:47.292 NetTraffic None@None:        None@None Acceleration Throughput from: True to: False
+*Console 01/10 14:20:47.292 : !!WARNING!! Creating network group with no chassis chain!!!
+*Debug 01/10 14:20:47.306 Test Server: ##### statManagerAddPorts [(1,1,2)]
+*Debug 01/10 14:20:47.306 Test Server: ##### port path 192.168.31.42/Card1/Port2
+*Debug 01/10 14:20:47.306 Test Server: AddPorts ['192.168.31.42/Card1/Port2'] to stat manager
+*Debug 01/10 14:20:47.322 Test Server: ##### PortList.Add 192.168.31.42/Card1/Port2
+*Debug 01/10 14:20:47.322 Test Server: ##### action AddPorts
+*Console 01/10 14:20:47.322 : CREATING A PORT GROUP ON DEMAND
+*Console 01/10 14:20:47.384 : Created port group with object id 'c3586c10-935b-46a6-958e-6a20d5f614e5'
+*Debug 01/10 14:20:47.526 ixNetProxy : convertValue failed for key name. Returning defaultValue
+*Debug 01/10 14:20:48.259 Network: Unregistered PortGroup or non-PG object changed!
+*Console 01/10 14:20:50.209 : SYNC: Network1 @ Wed Jan 10 14:20:50 2018 - duration - 0.0
+*Console 01/10 14:20:50.223 : ****smObjectChanged: Network1 marked dirty
+*Debug 01/10 14:20:50.240 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:50.552 NetTraffic Traffic1@Network1: ###### CHANGED Traffic1@Network1:
+*Debug 01/10 14:20:50.552 NetTraffic Traffic1@Network1:        Traffic1@Network1 Performance Acceleration from: False to: True
+*Console 01/10 14:20:50.582 : SYNC: Network1 @ Wed Jan 10 14:20:50 2018 - duration - 0.0309998989105
+*Debug 01/10 14:20:50.598 Activity eGTP Control Plane: convertValue failed for key _tcl. Returning defaultValue
+*Debug 01/10 14:20:50.614 Activity newAgent1: convertValue failed for key _tcl. Returning defaultValue
+*Debug 01/10 14:20:50.755 Port Event Viewer: _createPlugin: classname=DI_ErrorsClasses namespace=IxLoad.Protocols.HTTP_Client.HTTP_Events filename=Plugins\agent\HTTP_Client\HTTPClient.UI.dll
+*Debug 01/10 14:20:50.832 Port Event Viewer: EventClassManager.PluginActionEvent EVENT_CLASS_REGISTRATION RegisterEventClassData { IsRegistering=True, EventClassId=0 }
+*Debug 01/10 14:20:50.848 Port Event Viewer: registerPluginsForAgent: DI_ErrorsClasses IxLoad.Protocols.HTTP_Client.HTTP_Events Plugins\agent\HTTP_Client\HTTPClient.UI.dll refcount=1
+*Debug 01/10 14:20:50.848 ixPluginServicesRegistry: unregistered all of the activities - _providerDict={}
+*Debug 01/10 14:20:50.848 ixPluginServicesRegistry: registered activity HTTPClient1 - _providerDict={}
+*Debug 01/10 14:20:50.848 NetTraffic Traffic1@Network1: Community Traffic1@Network1 changing role from None to Client
+*Debug 01/10 14:20:50.848 NetTraffic Traffic1@Network1: Activity HTTPClient1 returned default port map policy : portPairs
+*Debug 01/10 14:20:50.848 NetTraffic Traffic1@Network1: Final default port map policy : portPairs
+*Debug 01/10 14:20:50.848 Activity HTTPClient1: convertValue failed for key _tcl. Returning defaultValue
+*Debug 01/10 14:20:50.848 Command : ERROR! 'ixNetworkCommand' object has no attribute '_smCommand' 
+*Debug 01/10 14:20:50.911 ixNetProxy apn-1.ixiacom.com: convertValue failed for key name. Returning defaultValue
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1: Activity HTTPClient1 returned default port map policy : portPairs
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1: Final default port map policy : portPairs
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1: ###### CHANGED Traffic1@Network1:
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1:        Traffic1@Network1 Acceleration Throughput from: True to: False
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1: ###### CHANGED Traffic1@Network1:
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1:        Traffic1@Network1 Acceleration Throughput from: False to: True
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1: ###### CHANGED Traffic1@Network1:
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1:        Traffic1@Network1 Acceleration Throughput from: False to: True
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1: ###### CHANGED Traffic1@Network1:
+*Debug 01/10 14:20:50.941 NetTraffic Traffic1@Network1:        Traffic1@Network1 Performance Acceleration from: True to: False
+*Debug 01/10 14:20:50.941 NetTraffic None@None: ###### CHANGED None@None:
+*Debug 01/10 14:20:50.941 NetTraffic None@None:        None@None Acceleration Throughput from: True to: False
+*Console 01/10 14:20:50.941 : !!WARNING!! Creating network group with no chassis chain!!!
+*Debug 01/10 14:20:50.957 Test Server: ##### statManagerAddPorts [(1,1,3)]
+*Debug 01/10 14:20:50.957 Test Server: ##### port path 192.168.31.42/Card1/Port3
+*Debug 01/10 14:20:50.957 Test Server: AddPorts ['192.168.31.42/Card1/Port3'] to stat manager
+*Debug 01/10 14:20:50.957 Test Server: ##### PortList.Add 192.168.31.42/Card1/Port3
+*Debug 01/10 14:20:50.957 Test Server: ##### action AddPorts
+*Console 01/10 14:20:50.957 : CREATING A PORT GROUP ON DEMAND
+*Console 01/10 14:20:50.957 : Created port group with object id '289e088e-a679-4960-b6f9-5b6ff5b0ca3e'
+*Warning 01/10 14:20:50.957 Network: The name 'Network1' is already used in this configuration. Keeping existing name 'NewGroup-2'
+*Debug 01/10 14:20:50.973 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.19 ixNetProxy : convertValue failed for key name. Returning defaultValue
+*Debug 01/10 14:20:51.19 Activity newAgent1: convertValue failed for key _tcl. Returning defaultValue
+*Debug 01/10 14:20:51.66 ixPluginServicesRegistry: unregistered all of the activities - _providerDict={}
+*Debug 01/10 14:20:51.66 ixPluginServicesRegistry: registered activity HTTPServer1 - _providerDict={}
+*Debug 01/10 14:20:51.66 NetTraffic Traffic1@Network2: Community Traffic1@Network2 changing role from None to Server
+*Debug 01/10 14:20:51.66 NetTraffic Traffic1@Network2: Activity HTTPServer1 returned default port map policy : portPairs
+*Debug 01/10 14:20:51.66 NetTraffic Traffic1@Network2: Final default port map policy : portPairs
+*Console 01/10 14:20:51.66 : SYNC: Network2 @ Wed Jan 10 14:20:51 2018 - duration - 0.0
+*Debug 01/10 14:20:51.66 Activity HTTPServer1: convertValue failed for key _tcl. Returning defaultValue
+*Debug 01/10 14:20:51.128 NetTraffic Traffic2@Network2: ###### CHANGED Traffic2@Network2:
+*Debug 01/10 14:20:51.128 NetTraffic Traffic2@Network2:        Traffic2@Network2 Acceleration Throughput from: True to: False
+*Debug 01/10 14:20:51.128 NetTraffic Traffic2@Network2: ###### CHANGED Traffic2@Network2:
+*Debug 01/10 14:20:51.128 NetTraffic Traffic2@Network2:        Traffic2@Network2 Acceleration Throughput from: False to: True
+*Debug 01/10 14:20:51.128 NetTraffic Traffic2@Network2: ###### CHANGED Traffic2@Network2:
+*Debug 01/10 14:20:51.128 NetTraffic Traffic2@Network2:        Traffic2@Network2 Acceleration Throughput from: False to: True
+*Debug 01/10 14:20:51.128 NetTraffic Traffic2@Network2: ###### CHANGED Traffic2@Network2:
+*Debug 01/10 14:20:51.128 NetTraffic Traffic2@Network2:        Traffic2@Network2 Performance Acceleration from: False to: True
+*Debug 01/10 14:20:51.128 Test: Frame size distribution view NOT SUPPORTED - Test option is not enabled
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.223 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.237 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.253 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.253 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.253 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.253 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.253 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.253 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.269 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.269 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.269 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.269 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.269 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.269 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:51.269 Network: Unregistered PortGroup or non-PG object changed!
+*Console 01/10 14:20:51.285 : ****smObjectChanged: Network1 marked dirty
+*Console 01/10 14:20:51.285 :  
+*Console 01/10 14:20:51.285 ixMainLock: ****smObjectChanged: Network1 marked dirty
+*Console 01/10 14:20:51.285 : ****smObjectChanged: Network1 marked dirty
+*Debug 01/10 14:20:51.285 Stat Controller: INITIALIZING THE STAT CONTROLLER.
+*Debug 01/10 14:20:51.301 Stat Controller: Stat viewer instance ID = ixload_1
+*Debug 01/10 14:20:51.301 Stat Controller: __initTestServer () ends
+*Debug 01/10 14:20:51.315 Stat Controller: Registering login name IxLoad/S1/INBASDPC12364/Vinoy for aptixia default views
+*Debug 01/10 14:20:51.457 Stat Controller: Registering for PathResolutionEvent
+*Debug 01/10 14:20:51.457 Stat Controller: svCleanup() starts
+*Debug 01/10 14:20:51.457 Stat Controller: svCleanup() Entities count=1
+*Debug 01/10 14:20:51.549 Stat Controller: svCleanup() finishes
+*Debug 01/10 14:20:51.565 Test Controller : statWrapper_timeout = 1800
+*Debug 01/10 14:20:51.565 Test Controller : Creating the TestController FSM Thread
+*Debug 01/10 14:20:51.596 ixFSM: 
+  *** FSM Test Controller ENTERING STATE  TestController: UNCONFIGURED                     
+*Debug 01/10 14:20:51.596 Test Controller: getFSMEvent(): Thread FSM Object not created for this thread!
+*Debug 01/10 14:20:51.596 Test Controller: **********************************************************************************************
+*Debug 01/10 14:20:51.596 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 01/10 14:20:51.596 Test Controller:  PUBLISHING STATE : [ TestController: UNCONFIGURED                    ]
+*Debug 01/10 14:20:51.596 Test Controller: **********************************************************************************************
+*Debug 01/10 14:20:51.644 Test Controller: Test Controller FSM: ENTRY Action for the State: UNCONFIGURED
+*Debug 01/10 14:20:51.644 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 01/10 14:20:51.644 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 01/10 14:20:51.644 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 01/10 14:20:51.644 Test Controller: Disconnecting from the stat-engine
+*Debug 01/10 14:20:51.660 Stat Controller: STAT CONTROLLER: disconnectFromAllSources()
+*Debug 01/10 14:20:51.660 Stat Controller: disconnectFromAllSources[721228752]: Disconnecting from []
+*Debug 01/10 14:20:51.660 Stat Controller: disconnectFromAllSources[721228752]: Done!
+*Debug 01/10 14:20:51.660 Stat Controller: Resetting stat threads
+*Debug 01/10 14:20:51.660 IxAnalyzer : Analyzer - Initialize()...
+*Debug 01/10 14:20:51.721 IxAnalyzer : Analyzer stub was created - Analyzer.CAnalyzerImpl
+*Debug 01/10 14:20:53.266 IxAnalyzer : Analyzer - Initialize() returned 0
+*Debug 01/10 14:20:53.266 IxAnalyzer : Analyzer - SetLiceseServer2(licenseServerName=', 'useExternalServer='True')...
+*Debug 01/10 14:20:53.266 IxAnalyzer : Analyzer - SetLiceseServer2 returned 0
+*Debug 01/10 14:20:53.266 IxAnalyzer : Analyzer - registering OnCaptureStatusChanged callback function for the capture view
+*Debug 01/10 14:20:53.266 IxAnalyzer : Analyzer - registering OnErrorNotification callback function for the capture view
+*Debug 01/10 14:20:53.266 IxAnalyzer : Analyzer - registering the callback functions succeeded
+*Debug 01/10 14:20:53.266 IxAnalyzer : Analyzer - Initialized successfully
+*Debug 01/10 14:20:53.266 IxAnalyzer : Analyzer - set test state - 0
+*Debug 01/10 14:20:53.298 ixEvent: Adding subscriber: <bound method ixTestController._callbackFsmAppStateName of <Lib.TestController.ixTestController.ixTestController object at 0x2AFD1290>> - im_self <Lib.TestController.ixTestController.ixTestController object at 0x2AFD1290>; im_func <function _callbackFsmAppStateName at 0x0D774DB0>
+*Debug 01/10 14:20:53.298 Test Controller: updateSubscribers() ixTestPreStateEvent(testName = Unknown, eventID= None, stateName =  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:53.298 Test Controller: updateSubscribers() ixTestStateEvent(testName = Unknown, eventID= None, stateName =  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:53.359 Stat Controller: Registering for StatRequestReadyEventHandler
+*Console 01/10 14:20:53.375 : self.__testController: <Lib.TestController.ixTestController.ixTestController object at 0x2AFD1290>
+*Console 01/10 14:20:53.375 : done
+*Info 01/10 14:20:53.375 Test Controller : Initializing Sdm Service. Searching for free port...
+*Warning 01/10 14:20:55.996 CalSdmService: SDM service listening port is now: 8050.
+*Debug 01/10 14:20:58.39 Test Controller : Test Controller Initialization Completed Successfully.
+*Debug 01/10 14:20:58.55 Test Controller: updateSubscribers() ixTestPreStateEvent(testName = Unknown, eventID= None, stateName =  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:58.55 Test Controller : ixRunStateHandler received event  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:58.55 Test Controller : ixRunStateHandler not running or cleaning. Exiting
+*Debug 01/10 14:20:58.55 Test Controller: updateSubscribers() ixTestStateEvent(testName = Unknown, eventID= None, stateName =  TestController: UNCONFIGURED                    
+*Console 01/10 14:20:58.55 : Initializing TCLApiTestController
+*Warning 01/10 14:20:58.55 Test Controller : Path 'C:\Program Files (x86)\Ixia\IxLoad\8.10-EA\TclScripts\Samples\RESULTS\IxLoad_VOLTE_affirmed' passed to setResultDir is longer than maximum path length of 69 and might cause run-time error.
+*Debug 01/10 14:20:58.55 NetTraffic Traffic1@Network1: setCommunityCaptureParams() activeTest=Test Envelope: Test1
+	Traffic-Network Mapping: ['Traffic1@Network1']
+
+	Traffic-Network Mapping: ['Traffic2@Network2']
+
+, captureEnabled=True
+*Debug 01/10 14:20:58.55 NetTraffic Traffic1@Network1: setCommunityCaptureParams(ENABLED for Traffic1@Network1)
+*Debug 01/10 14:20:58.55 Test Controller : WARNING: The repository object is EMPTY.
+*Debug 01/10 14:20:58.86 Test Controller : WARNING: The repository object is EMPTY.
+*Debug 01/10 14:20:58.101 Test Controller : Uploading tcl code to tcl interpreter for test event callbacks
+*Debug 01/10 14:20:58.101 POP3_Client.Pop3Command: Command list upgraded!
+*Debug 01/10 14:20:58.101 POP3_Client.Pop3Command: Command list upgraded!
+*Console 01/10 14:20:58.101 : SYNC: Network2 @ Wed Jan 10 14:20:58 2018 - duration - 0.0
+*Console 01/10 14:20:58.101 : SYNC: Network1 @ Wed Jan 10 14:20:58 2018 - duration - 0.0
+*Debug 01/10 14:20:58.101 Test Controller : @@@run: doing start run...
+*Debug 01/10 14:20:58.118 Test Controller : ##### ChassisChain synced: True
+*Debug 01/10 14:20:58.118 Test Controller: testName = Test1 ; stateName =  TestController: UNCONFIGURED                    ; eventId =  TestController: Start the Run ; errDescription = None ; details = None; status = None
+*Debug 01/10 14:20:58.118 Test Controller : @@@run:  using ::ixTestControllerMonitor as monitor variable
+*Debug 01/10 14:20:58.148 Test Controller: Fetching the next event from the queue
+*Debug 01/10 14:20:58.148 Test Controller: event ID received =  TestController: Start the Run
+*Debug 01/10 14:20:58.148 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Start the Run
+*Debug 01/10 14:20:58.211 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Start the Run
+*Debug 01/10 14:20:58.211 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:58.211 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: CONFIG INIT                     
+*Debug 01/10 14:20:58.211 Test Controller: **********************************************************************************************
+*Debug 01/10 14:20:58.211 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 01/10 14:20:58.211 Test Controller:  PUBLISHING STATE : [ TestController: CONFIG INIT                     ]
+*Debug 01/10 14:20:58.211 Test Controller: **********************************************************************************************
+*Debug 01/10 14:20:58.211 Test Controller : ixRunStateHandler received event  TestController: CONFIG INIT                     
+*Debug 01/10 14:20:58.226 Test Controller: Test Controller FSM: ENTRY Action for the State: CONFIG INIT
+*Debug 01/10 14:20:58.243 IxAnalyzer : Analyzer - set test state - 1
+*Debug 01/10 14:20:58.243 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 01/10 14:20:58.243 Test Controller : SM Cancel being invoked
+*Debug 01/10 14:20:58.243 Test Controller : SM Cancel completed
+*Debug 01/10 14:20:58.243 Test Controller: testName = Test1 ; stateName =  TestController: CONFIG INIT                     ; eventId =  TestController: Check Config ; errDescription = None ; details = None; status = None
+*Debug 01/10 14:20:58.257 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: UNCONFIGURED', EVENT RECEIVED:  TestController: Start the Run
+  NEW STATE: 'TestController: CONFIG INIT', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 01/10 14:20:58.257 Test Controller: Fetching the next event from the queue
+*Debug 01/10 14:20:58.257 Test Controller: event ID received =  TestController: Check Config
+*Debug 01/10 14:20:58.257 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Check Config
+*Debug 01/10 14:20:58.257 Test Server: IP Overlapping Disabled
+*Info 01/10 14:20:58.305 Activity HTTPClient1: You are using default network commands. Any changes made to plugin setting properties will be ignored!
+*Debug 01/10 14:20:58.335 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/10 14:20:58.335 NetTraffic Traffic1@Network1: isCommunityCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/10 14:20:58.335 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/10 14:20:58.398 Traffic Traffic1: Traffic Traffic1 Agent HTTPClient1 global featureDict = {0: 1, 1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 1, 9: 1, 10: 0, 11: 0, 12: 1, 15: 1, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 1, 25: 0, 26: -1, 27: 0}
+*Debug 01/10 14:20:58.398 Traffic Traffic1: Traffic Traffic1 Agent eGTP Control Plane global featureDict = {0: 1, 1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 15: 1, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 0, 25: 0, 26: -1, 27: 0}
+*Debug 01/10 14:20:58.398 Traffic Traffic1: Traffic Traffic1 before reviseNetTrafficFeatures aggregatedFeatures = {0: 1, 1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 1, 9: 1, 10: 0, 11: 0, 12: 1, 13: 0, 14: 0, 15: 1, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 1, 24: 0, 25: 0, 26: -1, 27: 0}
+*Debug 01/10 14:20:58.430 Network Network1: ************ Not Multicore; Returning False; **************
+*Debug 01/10 14:20:58.430 NetTraffic Traffic1@Network1: ************ Conditional View Enable; Returning False; **************
+*Debug 01/10 14:20:58.430 NetTraffic Traffic1@Network1: isConditionalViewSupported result=True self.name=Traffic1@Network1 isConditionalViewPerUser=True agentsRequest=True
+*Debug 01/10 14:20:58.430 NetTraffic Traffic1@Network1: fastTcpStack
+*Debug 01/10 14:20:58.430 Traffic Traffic1: Traffic Traffic1 after reviseNetTrafficFeatures aggregatedFeatures = {0: 1, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 1, 9: 1, 10: 0, 11: 0, 12: 1, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 0, 24: 0, 25: 0, 26: -1, 27: 0}
+*Debug 01/10 14:20:58.430 Network Network1: Port(s) [(1,1,2)] in network Network1 do not support L7 mode)
+*Debug 01/10 14:20:58.492 Network Network1: Network Network1: eNB S1-u -1 does not support Stream mode.
+*Debug 01/10 14:20:58.601 *PCU*: Network1: Traffic1: Memory required for network is 39517747 for 1 interfaces: SM memory of 39517747, Kse memory of 0, IPv4 agent specific mem 0, IPv6 agent specific mem 0
+*Debug 01/10 14:20:58.601 Traffic Traffic1: Available memory from card 2060409956.
+*Debug 01/10 14:20:58.601 NetTraffic Traffic1@Network1: isConditionalViewSupported result=False self.name=Traffic1@Network1 isConditionalViewPerUser=True agentsRequest=False
+*Debug 01/10 14:20:58.601 Traffic Traffic1: Traffic1@Network1: Available free memory for card Xcellon-Ultra NP, of chassis 192.168.31.42 being used in computation is 2056868497 bytes [Extra Mem = 3541459, Attachment Size = 0, conditional Stats = 0, playlist file size = 0.]
+*Debug 01/10 14:20:58.601 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/10 14:20:58.601 *PCU*: Traffic1@Network1: Available free memory for card Xcellon-Ultra NP, of chassis 192.168.31.42 being used in computation is 2056868497 bytes [Extra Mem = 3541459, Attachment Size = 0, conditional Stats = 0, playlist file size = 0.]
+*Debug 01/10 14:20:58.601 *PCU*: Traffic1@Network1: Effective available memory for network and activities is 1439807948, after deducting ixView memory of 617060549.
+*Debug 01/10 14:20:58.601 Network Network1: Setting activity id for community Traffic1@Network1
+*Debug 01/10 14:20:58.601 Network Range Network Range UE-R2 in Network1: Adding flow eGTP Control Plane with RuntimeId 1 to activityIdList
+*Debug 01/10 14:20:58.601 Network Range Network Range UE-R2 in Network1: Adding flow HTTPClient1 with RuntimeId 0 to activityIdList
+*Debug 01/10 14:20:58.601 Traffic Traffic1: agent HTTP requires advancedFeatures: []
+*Debug 01/10 14:20:58.632 NetTraffic Traffic1@Network1: Max allowed activities is 16
+*Warning 01/10 14:20:58.648 NetTraffic Traffic1@Network1: The number of Simulated Users configured (100) is greater than the total IPv4 Pool Size (1) for activity 'HTTPClient1' in Client Traffic-Network Mapping 'Traffic1@Network1'. Some users will use the same addresses as others.
+*Debug 01/10 14:20:58.648 Traffic Traffic1: Available memory from card 2060409956.
+*Debug 01/10 14:20:58.648 NetTraffic Traffic1@Network1: isConditionalViewSupported result=False self.name=Traffic1@Network1 isConditionalViewPerUser=True agentsRequest=False
+*Debug 01/10 14:20:58.648 Traffic Traffic1: Traffic1@Network1: Available free memory for card Xcellon-Ultra NP, of chassis 192.168.31.42 being used in computation is 2056868497 bytes [Extra Mem = 3541459, Attachment Size = 0, conditional Stats = 0, playlist file size = 0.]
+*Debug 01/10 14:20:58.648 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning True
+*Debug 01/10 14:20:58.648 *PCU*: Traffic1@Network1: Available free memory for card Xcellon-Ultra NP, of chassis 192.168.31.42 being used in computation is 2056868497 bytes [Extra Mem = 3541459, Attachment Size = 0, conditional Stats = 0, playlist file size = 0.]
+*Debug 01/10 14:20:58.648 *PCU*: Traffic1@Network1: Effective available memory for network and activities is 1439807948, after deducting ixView memory of 617060549.
+*Debug 01/10 14:20:58.648 *PCU*: Traffic1@Network1: HTTPClient1: Ports Required CALC:
+                                     TCP Ports requirement:
+                                     UsersPerIP: 0 UsersPerPort: 0 TcpPortsPerUser: 3 Ports required = 0.000000
+*Debug 01/10 14:20:58.648 *PCU*: Traffic1@Network1: HTTPClient1: Ports Required CALC:
+                                   UDP Ports requirement:
+                                   UsersPerIP: 0 UsersPerPort: 0 UdpPortsPerUser: 0 Ports required = 0.000000
+*Debug 01/10 14:20:58.648 *PCU*: Traffic1@Network1: HTTPClient1: Ports required for memory 0.000395858350964, tcp/udp dominance 0
+*Debug 01/10 14:20:58.648 *PCU*: Traffic1@Network1: eGTP Control Plane: Ports Required CALC:
+                                     TCP Ports requirement:
+                                     UsersPerIP: 0 UsersPerPort: 0 TcpPortsPerUser: 0 Ports required = 0.000000
+*Debug 01/10 14:20:58.648 *PCU*: Traffic1@Network1: eGTP Control Plane: Ports Required CALC:
+                                   UDP Ports requirement:
+                                   UsersPerIP: 0 UsersPerPort: 0 UdpPortsPerUser: 0 Ports required = 0.000000
+*Debug 01/10 14:20:58.648 *PCU*: Traffic1@Network1: eGTP Control Plane: Ports required for memory 6.94537074468e-10, tcp/udp dominance 0
+*Debug 01/10 14:20:58.664 *PCU*: Network1: Traffic1: Memory required for network is 39517747 for 1 interfaces: SM memory of 39517747, Kse memory of 0, IPv4 agent specific mem 0, IPv6 agent specific mem 0
+*Debug 01/10 14:20:58.664 *PCU*: Traffic1@Network1: HTTPClient1: Objective Performance is 0.0 for objective simulatedUsers cardFamily acceleron-np configId :
+*Debug 01/10 14:20:58.664 *PCU*: Traffic1@Network1: HTTPClient1: Ports requirement for agent specified max is 0, objectiveValue 100, maxObjectiveFromObjectivePerformance 0.0, usingMaxAllowedObjective 0,
+*Debug 01/10 14:20:58.664 *PCU*: Traffic1@Network1: eGTP Control Plane: Objective Performance is 0 for objective simulatedUsers cardFamily acceleron-np configId :
+*Debug 01/10 14:20:58.664 *PCU*: Traffic1@Network1: eGTP Control Plane: Ports requirement for agent specified max is 0, objectiveValue 1, maxObjectiveFromObjectivePerformance 0, usingMaxAllowedObjective 0,
+*Debug 01/10 14:20:58.664 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/10 14:20:58.664 NetTraffic Traffic2@Network2: isCommunityCaptureEnabled() for Traffic2@Network2 returning False
+*Console 01/10 14:20:58.664 : Protocols in current community : 
+*Console 01/10 14:20:58.664 : HTTP
+*Debug 01/10 14:20:58.664 Activity HTTPServer1: cpsTypeObjFound = False, ccTypeObjFound=True, otherTypeObjFound=False
+*Debug 01/10 14:20:58.664 Activity HTTPServer1: ixStackConfig
+*Debug 01/10 14:20:58.664 Traffic Traffic2: Traffic Traffic2 Agent HTTPServer1 global featureDict = {0: 1, 1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 15: 1, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 1, 25: 0, 26: -1, 27: 1}
+*Debug 01/10 14:20:58.664 Traffic Traffic2: Traffic Traffic2 before reviseNetTrafficFeatures aggregatedFeatures = {0: 1, 1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 1, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 1, 24: 0, 25: 0, 26: -1, 27: 1}
+*Debug 01/10 14:20:58.664 Network Network2: ************ Not Multicore; Returning False; **************
+*Debug 01/10 14:20:58.664 NetTraffic Traffic2@Network2: ************ Conditional View Enable; Returning False; **************
+*Debug 01/10 14:20:58.664 NetTraffic Traffic2@Network2: isConditionalViewSupported result=False self.name=Traffic2@Network2 isConditionalViewPerUser=True agentsRequest=True
+*Debug 01/10 14:20:58.664 NetTraffic Traffic2@Network2: ************ Conditional View Request; Returning False; **************
+*Debug 01/10 14:20:58.664 NetTraffic Traffic2@Network2: fastTcpStack
+*Debug 01/10 14:20:58.664 Traffic Traffic2: Traffic Traffic2 after reviseNetTrafficFeatures aggregatedFeatures = {0: 1, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 1, 24: 0, 25: 0, 26: -1, 27: 1}
+*Debug 01/10 14:20:58.680 Network Network2: Port(s) [(1,1,3)] in network Network2 do not support L7 mode)
+*Debug 01/10 14:20:58.694 *PCU*: Network2: Traffic2: Memory required for network is 267168 for 1 interfaces: SM memory of 267168, Kse memory of 0, IPv4 agent specific mem 0, IPv6 agent specific mem 0
+*Debug 01/10 14:20:58.694 Traffic Traffic2: Available memory from card 2060409956.
+*Debug 01/10 14:20:58.694 NetTraffic Traffic2@Network2: isConditionalViewSupported result=False self.name=Traffic2@Network2 isConditionalViewPerUser=True agentsRequest=False
+*Debug 01/10 14:20:58.694 Traffic Traffic2: Traffic2@Network2: Available free memory for card Xcellon-Ultra NP, of chassis 192.168.31.42 being used in computation is 2057524228 bytes [Extra Mem = 2885728, Attachment Size = 0, conditional Stats = 0, playlist file size = 0.]
+*Debug 01/10 14:20:58.694 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/10 14:20:58.694 *PCU*: Traffic2@Network2: Available free memory for card Xcellon-Ultra NP, of chassis 192.168.31.42 being used in computation is 2057524228 bytes [Extra Mem = 2885728, Attachment Size = 0, conditional Stats = 0, playlist file size = 0.]
+*Debug 01/10 14:20:58.694 *PCU*: Traffic2@Network2: Effective available memory for network and activities is 2057524228, after deducting ixView memory of 0.
+*Debug 01/10 14:20:58.694 Network Network2: Setting activity id for community Traffic2@Network2
+*Debug 01/10 14:20:58.694 Network Range Network Range IP-R3 in Network2 (172.32.2.200+1): Adding flow HTTPServer1 with RuntimeId 0 to activityIdList
+*Debug 01/10 14:20:58.694 Traffic Traffic2: agent HTTP requires advancedFeatures: []
+*Debug 01/10 14:20:58.694 Traffic Traffic2: Available memory from card 2060409956.
+*Debug 01/10 14:20:58.694 NetTraffic Traffic2@Network2: isConditionalViewSupported result=False self.name=Traffic2@Network2 isConditionalViewPerUser=True agentsRequest=False
+*Debug 01/10 14:20:58.694 Traffic Traffic2: Traffic2@Network2: Available free memory for card Xcellon-Ultra NP, of chassis 192.168.31.42 being used in computation is 2057524228 bytes [Extra Mem = 2885728, Attachment Size = 0, conditional Stats = 0, playlist file size = 0.]
+*Debug 01/10 14:20:58.694 NetTraffic Traffic2@Network2: isAnyPortCaptureEnabled() for Traffic2@Network2 returning False
+*Debug 01/10 14:20:58.694 *PCU*: Traffic2@Network2: Available free memory for card Xcellon-Ultra NP, of chassis 192.168.31.42 being used in computation is 2057524228 bytes [Extra Mem = 2885728, Attachment Size = 0, conditional Stats = 0, playlist file size = 0.]
+*Debug 01/10 14:20:58.694 *PCU*: Traffic2@Network2: Effective available memory for network and activities is 2057524228, after deducting ixView memory of 0.
+*Debug 01/10 14:20:58.710 *PCU*: Network2: Traffic2: Memory required for network is 267168 for 1 interfaces: SM memory of 267168, Kse memory of 0, IPv4 agent specific mem 0, IPv6 agent specific mem 0
+*Debug 01/10 14:20:58.710 Activity HTTPServer1: Calculated value for Memory/connection = 4637.2, Where skbuff_size = 2240, TCP Buffer size = 4096, MTU = 1500, IP_header_size = 20, TCP_header_size = 36, active connection memory = 7930, idle connection memory = 1210.
+*Debug 01/10 14:20:58.710 Test: buildDefaultStatViewList() CSV logging is Enabled.
+*Debug 01/10 14:20:58.710 Test: @ Building default StatView list...
+*Debug 01/10 14:20:58.710 Test: @ Building activity HTTPServer1 StatView list...
+*Debug 01/10 14:20:58.726 Test: @ Building activity HTTPClient1 StatView list...
+*Debug 01/10 14:20:58.742 Test: @ Building Protocol CSV Views...
+*Debug 01/10 14:20:58.742 Test: buildDefaultPerProtocolStats()
+*Debug 01/10 14:20:58.742 Test: Building CSV view for protocol = HTTP, role = Server...
+*Debug 01/10 14:20:58.742 Test: Using longest activity HTTPServer1 for creating view for protocol = HTTP, role = Server 
+*Debug 01/10 14:20:58.742 Test: Building CSV view for protocol = HTTP, role = Client...
+*Debug 01/10 14:20:58.742 Test: Using longest activity HTTPClient1 for creating view for protocol = HTTP, role = Client 
+*Debug 01/10 14:20:58.742 Test: @ Building Test CSV Views...
+*Debug 01/10 14:20:58.742 Test: buildDefaultTestStats()
+*Debug 01/10 14:20:58.742 Test: @ Building CSV view for test Server...
+*Debug 01/10 14:20:58.742 Test: using longest activity HTTPServer1 for creating view for type = Server 
+*Debug 01/10 14:20:58.742 Test: @ Building CSV view for test Client...
+*Debug 01/10 14:20:58.742 Test: using longest activity HTTPClient1 for creating view for type = Client 
+*Debug 01/10 14:20:58.742 Test: @ Building Run State Views...
+*Debug 01/10 14:20:58.976 Test: asmXmvAllPortDict={0: [(1,1,3), (1,1,2)]}
+*Debug 01/10 14:20:58.976 Test Controller: testName = Test1 ; stateName =  TestController: CONFIG INIT                     ; eventId =  TestController: RebootPorts ; errDescription = None ; details = None; status = None
+*Debug 01/10 14:20:58.976 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Check Config
+*Debug 01/10 14:20:58.976 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: CONFIG INIT                     
+*Debug 01/10 14:20:58.976 Test Controller: Fetching the next event from the queue
+*Debug 01/10 14:20:58.976 Test Controller: event ID received =  TestController: RebootPorts
+*Debug 01/10 14:20:58.976 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: RebootPorts
+*Debug 01/10 14:20:58.976 Test Controller : TEST CONTROLLER: setupCommunityControllers()
+*Debug 01/10 14:20:58.976 Test Controller : Creating NEW COMMUNITY CONTROLLER : Traffic2@Network2
+*Console 01/10 14:20:58.976 : ixPortController for card (1,1) reports isMultiNic = False
+*Debug 01/10 14:20:58.992 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:58.992 Network: Unregistered PortGroup or non-PG object changed!
+*Debug 01/10 14:20:59.38 ixFSM: 
+  *** FSM Community Controller Traffic2@Network2 ENTERING STATE  Community Controller: INIT CONFIG           
+*Debug 01/10 14:20:59.38 Community Controller Traffic2@Network2: Community Controller FSM: ENTRY Action for the State: INIT CONFIG  :: Traffic2@Network2 
+*Debug 01/10 14:20:59.38 Community Controller: Clearing cache on Traffic2@Network2
+*Debug 01/10 14:20:59.38 Community Controller: Community cache cleared on Traffic2@Network2 .
+*Debug 01/10 14:20:59.38 Test Controller : <Community Controller thread started> Traffic2@Network2
+*Debug 01/10 14:20:59.38 Test Controller : Creating NEW COMMUNITY CONTROLLER : Traffic1@Network1
+*Console 01/10 14:20:59.38 : ixPortController for card (1,1) reports isMultiNic = False
+*Debug 01/10 14:20:59.101 ixFSM: 
+  *** FSM Community Controller Traffic1@Network1 ENTERING STATE  Community Controller: INIT CONFIG           
+*Debug 01/10 14:20:59.101 Community Controller Traffic1@Network1: Community Controller FSM: ENTRY Action for the State: INIT CONFIG  :: Traffic1@Network1 
+*Debug 01/10 14:20:59.101 Community Controller: Clearing cache on Traffic1@Network1
+*Debug 01/10 14:20:59.101 Community Controller: Community cache cleared on Traffic1@Network1 .
+*Debug 01/10 14:20:59.101 Test Controller : <Community Controller thread started> Traffic1@Network1
+*Debug 01/10 14:20:59.101 Test Controller : Following communities have been successfully added to the list.
+*Debug 01/10 14:20:59.101 Test Controller : Community Controller = Traffic2@Network2
+*Debug 01/10 14:20:59.101 Test Controller : Community Controller = Traffic1@Network1
+*Debug 01/10 14:20:59.101 Test Controller: setUserStopRunFlag is False
+*Debug 01/10 14:20:59.101 Test Controller : The port list for the active test.
+*Debug 01/10 14:20:59.101 Community Controller: Initialize the Port List for the community : Traffic2@Network2
+*Debug 01/10 14:20:59.101 Community Controller: Ports : [(1,1,3)]
+*Debug 01/10 14:20:59.101 Community Controller: Initialize the Port List for the community : Traffic1@Network1
+*Debug 01/10 14:20:59.101 Community Controller: Ports : [(1,1,2)]
+*Debug 01/10 14:20:59.194 Test Controller: Total number of Ports for this test are: 2
+*Debug 01/10 14:20:59.194 Event Scheduler: addEvent() Function. interval = 0, action = <bound method ixTestControllerFSMThread._configuringTimerExpired of <ixTestControllerFSMThread(Test Controller, started daemon 12988)>>, actionArguments=(()), iteration=0, startDelay=4920 and Timer Index = 1
+*Debug 01/10 14:20:59.194 Event Scheduler: EVENT ADDED to the events map. Timer Index=1
+*Debug 01/10 14:20:59.194 Test Controller: [ Configuring Watch Dog Timer created. ] Timer ID = 1 
+*Debug 01/10 14:20:59.194 Test Controller: [ Configured timeout interval = 0 s, start delay = 4920 s. ]
+*Debug 01/10 14:20:59.194 Test Controller: Total number of communities for this test: 2
+*Debug 01/10 14:20:59.194 Network: ##### Removing port from portList (1,1,2)
+*Debug 01/10 14:20:59.194 Network: ##### Removing port from portList (1,1,3)
+*Debug 01/10 14:20:59.194 Chassis Chain: Taking ownership on [[1, 1, 2], [1, 1, 3]].
+*Debug 01/10 14:20:59.210 Test Controller: testName = Test1 ; stateName =  TestController: CONFIG INIT                     ; eventId =  TestController ERROR: Configuration Initialization Failed ; errDescription = Failed to take ownership on ports [[1, 1, 2], [1, 1, 3]]. Please use the "Clear Ownership and Reboot Ports" option or use "Forcefully Take Ownership" option ; details = None; status = 1
+*Debug 01/10 14:20:59.210 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Error 01/10 14:20:59.210 Test Controller: Failed to take ownership on ports [[1, 1, 2], [1, 1, 3]]. Please use the "Clear Ownership and Reboot Ports" option or use "Forcefully Take Ownership" option
+*Debug 01/10 14:20:59.210 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: RebootPorts
+*Debug 01/10 14:20:59.210 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: CONFIG INIT                     
+*Debug 01/10 14:20:59.210 Test Controller: Fetching the next event from the queue
+*Debug 01/10 14:20:59.210 Test Controller: event ID received =  TestController ERROR: Configuration Initialization Failed
+*Debug 01/10 14:20:59.210 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController ERROR: Configuration Initialization Failed
+*Debug 01/10 14:20:59.210 Test Controller: _cleanUp() API called
+*Debug 01/10 14:20:59.210 Test Controller: [ Stopping the Configuring Watch Dog Timer. ] Timer ID = 1
+*Debug 01/10 14:20:59.210 Event Scheduler: REMOVE Event(). Removing Event Index 1
+*Debug 01/10 14:20:59.210 Event Scheduler: Stopping the timer: Event Index 1, timer (1515579179.194, 0, <bound method ixEventScheduler.callback of <Lib.Common.ixEventScheduler.ixEventScheduler object at 0x2AFD1370>>, (1,))
+*Debug 01/10 14:20:59.210 Event Scheduler: deleting the event 1
+*Debug 01/10 14:20:59.210 Test Controller : Shutting down the existing Community Controller: Traffic2@Network2 
+*Debug 01/10 14:20:59.210 Community Controller: Shutting down communityController for community Traffic2@Network2
+*Debug 01/10 14:20:59.210 [Traffic2@Network2] Port Controller: Flushing 0 sockets
+*Debug 01/10 14:20:59.210 [Traffic2@Network2] Port Controller: Flush: 0 iterations
+*Debug 01/10 14:20:59.272 Community Controller: Resetting the community : Traffic2@Network2
+*Debug 01/10 14:20:59.272 Test Controller : Shutting down the existing Community Controller: Traffic1@Network1 
+*Debug 01/10 14:20:59.272 Community Controller: Shutting down communityController for community Traffic1@Network1
+*Debug 01/10 14:20:59.272 [Traffic1@Network1] Port Controller: Flushing 0 sockets
+*Debug 01/10 14:20:59.272 [Traffic1@Network1] Port Controller: Flush: 0 iterations
+*Debug 01/10 14:20:59.319 Community Controller: Resetting the community : Traffic1@Network1
+*Info 01/10 14:20:59.319 Test Controller: Tearing down all network interfaces started...
+*Info 01/10 14:20:59.349 Test Controller: Tearing down all interfaces completed...
+*Debug 01/10 14:20:59.349 Test Controller: Configuration failed.
+*Debug 01/10 14:20:59.365 Test Controller: Test Controller FSM: EXIT Action for the State: CONFIG INIT
+*Debug 01/10 14:20:59.397 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController ERROR: Configuration Initialization Failed
+*Debug 01/10 14:20:59.397 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: CONFIG INIT                     
+*Debug 01/10 14:20:59.397 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:59.397 Test Controller: **********************************************************************************************
+*Debug 01/10 14:20:59.397 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 01/10 14:20:59.397 Test Controller:  PUBLISHING STATE : [ TestController: UNCONFIGURED                    ]
+*Debug 01/10 14:20:59.397 Test Controller: **********************************************************************************************
+*Debug 01/10 14:20:59.397 Test Controller : ixRunStateHandler received event  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:59.397 Test Controller : calling ::IxLoad eval {set ::ixCaptureMonitor {eventType CAPTURE_STOPPED status OK}}
+*Debug 01/10 14:20:59.397 Test Controller : calling ::IxLoad eval {::IxLoadPrivate::default_event_callback {eventType TEST_STOPPED status ERROR description {1} message {Failed to take ownership on ports [[1, 1, 2], [1, 1, 3]]. Please use the "Clear Ownership and Reboot Ports" option or use "Forcefully Take Ownership" option}}}
+*Debug 01/10 14:20:59.413 Test Controller: Test Controller FSM: ENTRY Action for the State: UNCONFIGURED
+*Debug 01/10 14:20:59.413 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 01/10 14:20:59.413 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 01/10 14:20:59.413 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 01/10 14:20:59.413 Test Controller: Disconnecting from the stat-engine
+*Debug 01/10 14:20:59.427 Stat Controller: STAT CONTROLLER: disconnectFromAllSources()
+*Debug 01/10 14:20:59.427 Stat Controller: disconnectFromAllSources[721228752]: Disconnecting from []
+*Debug 01/10 14:20:59.427 Stat Controller: disconnectFromAllSources[721228752]: Done!
+*Debug 01/10 14:20:59.427 Stat Controller: Resetting stat threads
+*Debug 01/10 14:20:59.427 IxAnalyzer : Analyzer - set test state - 0
+*Debug 01/10 14:20:59.444 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: CONFIG INIT', EVENT RECEIVED:  TestController ERROR: Configuration Initialization Failed
+  NEW STATE: 'TestController: UNCONFIGURED', DESCRIPTION: Failed to take ownership on ports [[1, 1, 2], [1, 1, 3]]. Please use the "Clear Ownership and Reboot Ports" option or use "Forcefully Take Ownership" option, DETAILS: None, STATUS: 1
+*Debug 01/10 14:20:59.648 Test Controller: testName = Test1 ; stateName =  TestController: UNCONFIGURED                    ; eventId =  TestController: Release the Configuration ; errDescription = None ; details = None; status = None
+*Debug 01/10 14:20:59.660 Test Controller: Fetching the next event from the queue
+*Debug 01/10 14:20:59.660 Test Controller: event ID received =  TestController: Release the Configuration
+*Debug 01/10 14:20:59.660 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Release the Configuration
+*Debug 01/10 14:20:59.726 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Release the Configuration
+*Debug 01/10 14:20:59.726 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:59.726 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:59.726 Test Controller: **********************************************************************************************
+*Debug 01/10 14:20:59.726 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 01/10 14:20:59.726 Test Controller:  PUBLISHING STATE : [ TestController: UNCONFIGURED                    ]
+*Debug 01/10 14:20:59.727 Test Controller: **********************************************************************************************
+*Debug 01/10 14:20:59.727 Test Controller : ixRunStateHandler received event  TestController: UNCONFIGURED                    
+*Debug 01/10 14:20:59.727 Test Controller : calling ::IxLoad eval {set ::ixCaptureMonitor {eventType CAPTURE_STOPPED status OK}}
+*Debug 01/10 14:20:59.727 Test Controller : calling ::IxLoad eval {::IxLoadPrivate::default_event_callback {eventType TEST_STOPPED status ERROR description {1} message {Failed to take ownership on ports [[1, 1, 2], [1, 1, 3]]. Please use the "Clear Ownership and Reboot Ports" option or use "Forcefully Take Ownership" option}}}
+*Debug 01/10 14:20:59.756 Test Controller: Test Controller FSM: ENTRY Action for the State: UNCONFIGURED
+*Debug 01/10 14:20:59.756 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 01/10 14:20:59.756 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 01/10 14:20:59.756 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 01/10 14:20:59.756 Test Controller: Disconnecting from the stat-engine
+*Debug 01/10 14:20:59.765 Stat Controller: STAT CONTROLLER: disconnectFromAllSources()
+*Debug 01/10 14:20:59.765 Stat Controller: disconnectFromAllSources[721228752]: Disconnecting from []
+*Debug 01/10 14:20:59.765 Stat Controller: disconnectFromAllSources[721228752]: Done!
+*Debug 01/10 14:20:59.765 Stat Controller: Resetting stat threads
+*Debug 01/10 14:20:59.766 IxAnalyzer : Analyzer - set test state - 0

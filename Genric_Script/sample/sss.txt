@@ -1,0 +1,5 @@
+*** Settings ***
+Library           SSHLibrary
+
+*** Test Cases ***
+tc1_fjbd

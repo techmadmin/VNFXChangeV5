@@ -1,0 +1,7 @@
+*** Settings ***
+Library           OperatingSystem
+
+*** Test Cases ***
+ixia_ue_Attach
+    ${output}    Run    tclsh85 IxLoad_VOLTE_affirmed.tcl
+    log    ${output}

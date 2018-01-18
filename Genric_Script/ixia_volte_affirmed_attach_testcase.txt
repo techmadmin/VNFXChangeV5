@@ -1,0 +1,12 @@
+*** Settings ***
+Library           OperatingSystem
+Library           SSHLibrary
+Library           String
+
+*** Variables ***
+${ixia_command}    tclsh85    IxLoad_VOLTE_affirmed.tcl
+
+*** Test Cases ***
+Ixia_UE_Attach
+    ${output}    Run    tclsh85 IxLoad_VOLTE_affirmed.tcl
+    log     ${output}

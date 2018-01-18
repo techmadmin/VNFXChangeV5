@@ -1,0 +1,94 @@
+*** Test Cases ***
+TC8_management IP assignment to SBC Platform
+    [Tags]    TC8
+    @{Server}    ImportDetails    ${CURDIR}\\Config\\SBC_Config.txt    ${Label}
+    Server_Login    @{Server}
+    Bootparam    #add steps
+
+TC9_Setting Up Entitlements for SBC
+    [Tags]    TC9
+    @{Server}    ImportDetails    ${CURDIR}\\Config\\SBC_Config.txt    ${Label}
+    Server_Login    @{Server}
+    Setup Entitlements
+
+TC10_verfying SBC conf
+    [Tags]    TC10
+    @{Server}    ImportDetails    ${CURDIR}\\Config\\SBC_Config.txt    ${Label}
+    Server_Login    @{Server}
+    write    nova list | grep -i ${VNFName}| awk -F ";" '{print $2}' | awk -F "=" '{print $2}'| awk -F " \ " '{print $1}'    #get IP of SBC
+    sleep    10
+    ${Output}    read
+    @{Output}    Split String    ${Output}
+    ${SBC_Mgmt_IP}    Get From List    ${Output}    0
+    Open Connection    ${SBC_Mgmt_IP}
+    Login    ${SBC_Username}    ${SBC NEW PASSWORD}
+    Write    show running-config
+    sleep    5
+    ${output}    read
+    Should Contain    ${output}    10.80.1.211    #CSMIP
+    Write    en
+    Write    ${SBC NEW PASSWORD}
+    Write    show running-config
+    sleep    5
+    ${output}    read
+    Should Contain    ${output}    10.80.1.211    #CSMIP
+
+TC5_Creating New element in SBC
+    [Tags]    TC5
+    @{Server}    ImportDetails    ${CURDIR}\\Config\\SBC_Config.txt    ${Label}
+    Server_Login    @{Server}
+    write    nova list | grep -i ${VNFName}| awk -F ";" '{print $2}' | awk -F "=" '{print $2}'| awk -F " \ " '{print $1}'    #get IP of SBC
+    sleep    10
+    ${Output}    read
+    @{Output}    Split String    ${Output}
+    ${SBC_Mgmt_IP}    Get From List    ${Output}    0
+    Open Connection    ${SBC_Mgmt_IP}
+    Login    ${SBC_Username}    ${SBC NEW PASSWORD}
+    Write    configure terminal
+    ${output}    read
+    Write    system
+    ${output}    read
+    Write    snmp-community
+    ${output}    read
+    Write    show
+    ${output}    read
+    Write    community-name sss
+    ${output}    read
+    Write    show config
+    ${output}    read
+    Should Contain    ${output}    sss
+
+TC6_Deleting Element from SBC
+    [Tags]    TC6
+    @{Server}    ImportDetails    ${CURDIR}\\Config\\SBC_Config.txt    ${Label}
+    Server_Login    @{Server}
+    Login    ${SBC USERNAME}    ${SBC NEW PASSWORD}
+    Write    ssh -o "StrictHostKeyChecking no" user@${MGT-IP}
+    Write    configure terminal
+    ${output}    read
+    Write    ?
+    Write    snmp-community
+    ${output}    read
+    Write    show
+    ${output}    read
+    Write    community-name <name>
+    ${output}    read
+    Write    show config
+    ${output}    read
+    Write    no
+    ${output}    read
+    Write    enter
+    ${output}    read
+    Write    show config
+    ${output}    read
+
+TC7_SBC files Back-up
+    [Tags]    TC7
+    @{Server}    ImportDetails    ${CURDIR}\\Config\\SBC_Config.txt    ${Label}
+    Server_Login    @{Server}
+    Elevated Access    #add steps of elevated access
+    Write    backup-config sss
+    ${output}    read
+    sleep    5
+    Write    display-backups
+    ${output}    read

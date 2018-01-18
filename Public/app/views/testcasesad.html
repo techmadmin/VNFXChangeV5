@@ -1,0 +1,47 @@
+<div class="tab-content">
+<div id="tstcase" class="tab-pane fade in active">
+
+  
+<div style="margin-top:30px">
+<div class="col-md-3" style="width:40%" >
+<label for="stype">VNF Type : </label>
+<select id="stype" ng-model="selectedtcType" ng-change="tcontypeChange(selectedtcType);" class="dropdown-toggle" style="height:27px;border-radius:20px;width:125px;">
+<option value="" >--Please Select--</option>
+<option value="SBC" >SBC</option>
+<option value="EPC" >EPC</option>
+</select>
+</div >
+
+<div class="col-md-3" style="width:40%";>
+<p class="formfield">
+<label for="tcname">TC Name: </label>
+<textarea name="paragraph_text" cols="5" rows="5" ng-model="createtcName"  style="border-radius:0px;margin-left: 4%;width:250px;height:50px;"></textarea>
+</p>
+</div>
+
+<div class="col-md-3" style="width:30%;margin-top:5%" >
+<label for="tcname">TC Description : </label>
+<textarea name="paragraph_text" cols="7" rows="10" type="text" ng-model="createtcDesc" ng-change="ontcdeschange(createtcDesc);" style="border-radius:0px;margin-left: 4%;width:300px;height:100px;"></textarea>
+</div>
+
+
+<span  id="overlay1" ng-show="searchButtonText == 'Searching'" style="margin-left:42%;">
+    <img class="loading_circle" src="../img/loading.gif" width="60px" height="60px"></img>
+</span>
+
+<div class="row">
+<div class="col-md-3" style="width:40%;margin-left:35%;margin-top:10%">
+<input type="button" value="Add" class="btn btn-primary" style="width;200px;" ng-click="addtc(createtcName);"/>
+<input type="button" value="Reset" class="btn btn-primary" style="width;150px;" ng-click="onbrdvnfName='';selectedovnftype='';onselectedOpenstack='';selectedoimg='';selectedflvrs='';"/>
+<input type="button" value="Cancel" class="btn btn-primary" style="width;150px;"/>
+</div></div>
+
+<div ng-if="onboardFileSuccess" class="alert alert-success" style="margin-top:2%;">
+	 <strong>Test Case Created Sucessfully!</strong> 
+</div> 
+
+</div>
+</div>
+</div>
+
+

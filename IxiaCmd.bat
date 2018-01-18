@@ -1,0 +1,1 @@
+pybot.bat --argumentfile c:\users\vinoy\appdata\local\temp\RIDEscn8gw.d\argfile.txt --listener C:\Python27\Lib\site-packages\robotide\contrib\testrunner\TestRunnerAgent.py:49430:False "C:\Program Files (x86)\Ixia\IxLoad\8.10-EA\TclScripts\Samples\ixia.txt"

@@ -1,0 +1,48 @@
+*** Settings ***
+Library           Selenium2Library
+Resource          keywords.txt
+Resource          variables.txt
+
+*** Test Cases ***
+LoginTest
+    Open Browser    https://training.customer.ngena.net    chrome
+    Comment    Set Selenium Speed    1
+    Comment    Wait Until Page Contains    Login to your account
+    Open Browser to the Login Page
+    Input Text    //form[1]/input[3]    ${username}
+    Input Text    //form/input[4]    ${password}
+    Click Button    //form/div[2]/button
+
+f
+    Click Element    //html/body/div[3]/div[1]/div/div/ul[1]/li/a/i[1]
+    Click Element    //html/body/div[5]/section/aside/ul/li[7]/a/span
+    Click Element    //html/body/div[5]/section/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/table/tbody/tr/td[1]/div/a/span[1]
+    Click Element    //html/body/div[5]/section/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/aside/div/div/div/div/div[4]/div/div/ul/li[3]/a/span
+    #Page Should Contain    New customer solution
+
+d
+    Input Text    //*[@type='password']    changeme
+    Click Button    //*[@id='a6']
+    Click Element    //*[@title='diameter-ng']
+    Click Element    //*[@title='network']
+    Click Element    //*[@title='peers']
+    Click Element    //*[@class='nnFlowLayout ']/div[1]/div//a[1]
+    Click Element    //*[@class='nnToolBarLeft']/div[1]/a[1]
+    Input Text    //*[@name='f_general.name.[1]']    Affirmed-crx
+    Input Text    //*[@name='f_diameter-ng-peer.context.[6]']    VPCRF
+    Select From List By Label    //*[@name='f_diameter-ng-peer.state.[7]']    enabled
+    Click Element    //a[@title='Enable connection-type']    #checkbox selection connection type
+    Select From List By Label    //*[@name='f_diameter-ng-peer.transport.[9]']    tcp
+    Input Text    //*[@name='f_diameter-ng-peer.transport.tcp.local.host.[12]']    edge-2-techm
+    Click Element    //a[@title='Enable address']
+    Input Text    //*[@name='f_diameter-ng-peer.transport.tcp.local.address.[13]']    10.80.1.212
+    Input Text    //*[@ name='f_diameter-ng-peer.transport.tcp.local.port.[14]']    3068
+    Input Text    //*[@ name='f_diameter-ng-peer.transport.tcp.local.realm.[15]']    netnumber_conf.com
+    Input Text    //*[@ name='f_diameter-ng-peer.transport.tcp.remote.host.[17]']    affirmed-saegw-Techm.com
+    Input Text    //*[@name='f_diameter-ng-peer.transport.tcp.remote.port.[19]']    3068
+    Click Element    //a[@title='Enable firewall']
+    Click Element    //a[@title='Enable inbound-acl']
+    Input Text    //*[@name='f_diameter-ng-peer.firewall.inbound-acl.[24]']    500
+    Click Element    //a[@title='Enable outbound-acl']
+    Input Text    //*[@name='f_diameter-ng-peer.firewall.outbound-acl.[25]']    500
+    Click Element    //*[@title='Save']*** Test Cases ***

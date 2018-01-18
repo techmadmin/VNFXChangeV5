@@ -1,0 +1,6 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** keywords ***
+Open Browser to the Login Page
+    Maximize Browser Window
